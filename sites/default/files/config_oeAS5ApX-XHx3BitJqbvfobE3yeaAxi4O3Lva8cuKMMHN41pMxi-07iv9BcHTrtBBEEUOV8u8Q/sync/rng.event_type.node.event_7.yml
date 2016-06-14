@@ -1,0 +1,11 @@
+uuid: 3aaec51f-4ee6-4092-bc31-b77006ff5300
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.event_7
+id: node.event_7
+entity_type: node
+bundle: event_7
+mirror_operation_to_event_manage: update
+custom_rules: true

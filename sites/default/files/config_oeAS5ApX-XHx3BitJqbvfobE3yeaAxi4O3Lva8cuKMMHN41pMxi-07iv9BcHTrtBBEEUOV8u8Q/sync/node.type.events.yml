@@ -1,0 +1,17 @@
+uuid: 4dd5e3e6-b204-4c51-bb37-df47acc63861
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Events
+type: events
+description: 'this is where we track all Drupal events form around the world..'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,56 @@
+uuid: 220f28bc-57a3-42f1-a092-53bda1e67f31
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.registration.registration.field_contact_email
+    - field.field.registration.registration.field_contact_number
+    - field.field.registration.registration.field_first_name
+    - field.field.registration.registration.field_image
+    - field.field.registration.registration.field_last_name
+    - image.style.thumbnail
+    - rng.registration_type.registration
+  module:
+    - image
+    - telephone
+id: registration.registration.default
+targetEntityType: registration
+bundle: registration
+mode: default
+content:
+  field_contact_email:
+    weight: 3
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+  field_contact_number:
+    weight: 4
+    label: inline
+    settings:
+      title: ''
+    third_party_settings: {  }
+    type: telephone_link
+  field_first_name:
+    weight: 1
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_image:
+    weight: 0
+    label: above
+    settings:
+      image_style: thumbnail
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  field_last_name:
+    weight: 2
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+hidden: {  }

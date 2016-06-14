@@ -1,0 +1,30 @@
+uuid: d9ea22e0-380a-4f7d-8ffa-0f2a95002128
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - rng
+id: registration.field_image
+field_name: field_image
+entity_type: registration
+type: image
+settings:
+  uri_scheme: public
+  default_image:
+    uuid: 98a58d79-6d51-4731-97e1-b08c0d469127
+    alt: ''
+    title: ''
+    width: 1200
+    height: 1200
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

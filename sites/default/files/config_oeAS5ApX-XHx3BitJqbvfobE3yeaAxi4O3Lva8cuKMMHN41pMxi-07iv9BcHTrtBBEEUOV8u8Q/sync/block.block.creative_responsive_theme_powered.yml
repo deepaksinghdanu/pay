@@ -1,0 +1,22 @@
+uuid: 78ac213e-06a7-4c19-b554-e300c70083f9
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - creative_responsive_theme
+_core:
+  default_config_hash: CxKXx-KldYbVOq0_wFRoXoHhpiIiDfyfAk_PVHXC9pQ
+id: creative_responsive_theme_powered
+theme: creative_responsive_theme
+region: auto_hidden_block
+weight: -7
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

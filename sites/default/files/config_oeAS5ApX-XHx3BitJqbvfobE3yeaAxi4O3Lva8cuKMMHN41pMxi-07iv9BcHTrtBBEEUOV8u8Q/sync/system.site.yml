@@ -1,0 +1,14 @@
+uuid: 9aa5a857-79a0-44c1-8753-3b997580b39d
+name: 'Event Management Services'
+mail: drupal@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

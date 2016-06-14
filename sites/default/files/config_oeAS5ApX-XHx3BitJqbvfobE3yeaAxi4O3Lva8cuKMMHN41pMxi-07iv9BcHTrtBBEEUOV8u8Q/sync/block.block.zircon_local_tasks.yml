@@ -1,0 +1,36 @@
+uuid: e8f0013c-b628-4a39-9b61-95abf5995c1f
+langcode: en
+status: true
+dependencies:
+  module:
+    - rng
+  theme:
+    - zircon
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: zircon_local_tasks
+theme: zircon
+region: content
+weight: -7
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility:
+  rng_rule_scheduler:
+    id: rng_rule_scheduler
+    rng_rule_component: null
+    rng_rule_scheduler: null
+    date: '1464337457'
+    negate: false
+    context_mapping: {  }
+  rng_current_time:
+    id: rng_current_time
+    date: '1464337457'
+    negate: false
+    context_mapping: {  }

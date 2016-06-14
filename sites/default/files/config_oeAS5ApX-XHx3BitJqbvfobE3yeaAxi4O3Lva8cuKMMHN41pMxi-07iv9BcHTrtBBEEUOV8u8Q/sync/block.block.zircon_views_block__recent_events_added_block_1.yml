@@ -1,0 +1,37 @@
+uuid: c51c36c8-c6b1-4caf-bca1-dbc53e2848d3
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.recent_events_added
+  module:
+    - rng
+    - views
+  theme:
+    - zircon
+id: zircon_views_block__recent_events_added_block_1
+theme: zircon
+region: sidebar_first
+weight: -8
+provider: null
+plugin: 'views_block:recent_events_added-block_1'
+settings:
+  id: 'views_block:recent_events_added-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  rng_rule_scheduler:
+    id: rng_rule_scheduler
+    rng_rule_component: null
+    rng_rule_scheduler: null
+    date: '1464245299'
+    negate: false
+    context_mapping: {  }
+  rng_current_time:
+    id: rng_current_time
+    date: '1464245299'
+    negate: false
+    context_mapping: {  }

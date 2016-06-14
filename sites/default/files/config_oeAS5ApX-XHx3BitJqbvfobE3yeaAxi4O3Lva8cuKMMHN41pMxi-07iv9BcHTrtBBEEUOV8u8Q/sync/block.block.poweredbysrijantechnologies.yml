@@ -1,0 +1,25 @@
+uuid: 8a6dcbd6-8e2f-42ff-9bef-ea315b63e44c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:f0884e61-a497-45c8-a037-c426d12bc872'
+  module:
+    - block_content
+  theme:
+    - zircon
+id: poweredbysrijantechnologies
+theme: zircon
+region: footer
+weight: -9
+provider: null
+plugin: 'block_content:f0884e61-a497-45c8-a037-c426d12bc872'
+settings:
+  id: 'block_content:f0884e61-a497-45c8-a037-c426d12bc872'
+  label: 'Powered by Srijan Technologies'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

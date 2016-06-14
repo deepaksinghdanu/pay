@@ -1,0 +1,94 @@
+uuid: 9ca11a72-eb8f-44bc-8cbd-64dffb4f8c66
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.node.rng_event
+    - field.field.node.events.body
+    - field.field.node.events.field_closing_date
+    - field.field.node.events.field_event_date
+    - field.field.node.events.field_event_logo
+    - field.field.node.events.field_event_sponsors
+    - field.field.node.events.field_event_topics
+    - field.field.node.events.field_event_website
+    - field.field.node.events.field_opening_date
+    - field.field.node.events.field_phone
+    - field.field.node.events.rng_capacity
+    - field.field.node.events.rng_registrants_duplicate
+    - field.field.node.events.rng_registration_groups
+    - field.field.node.events.rng_registration_type
+    - field.field.node.events.rng_reply_to
+    - field.field.node.events.rng_status
+    - node.type.events
+  module:
+    - datetime
+    - rng
+    - unlimited_number
+id: node.events.rng_event
+targetEntityType: node
+bundle: events
+mode: rng_event
+content:
+  field_closing_date:
+    type: datetime_datelist
+    weight: 6
+    settings:
+      date_order: DMY
+      time_type: '12'
+      increment: 1
+    third_party_settings: {  }
+  field_opening_date:
+    type: datetime_datelist
+    weight: 5
+    settings:
+      date_order: DMY
+      time_type: '12'
+      increment: 1
+    third_party_settings: {  }
+  rng_capacity:
+    type: unlimited_number
+    weight: 2
+    settings:
+      label_unlimited: Unlimited
+      label_number: Limited
+      placeholder: ''
+    third_party_settings: {  }
+  rng_registrants_duplicate:
+    type: boolean_checkbox
+    weight: 1
+    settings:
+      display_label: false
+    third_party_settings: {  }
+  rng_registration_type:
+    type: rng_registration_type
+    weight: 4
+    settings: {  }
+    third_party_settings: {  }
+  rng_reply_to:
+    type: email_default
+    settings:
+      placeholder: 'Leave empty to use site default.'
+      size: 60
+    weight: 3
+    third_party_settings: {  }
+  rng_status:
+    type: boolean_checkbox
+    weight: 0
+    settings:
+      display_label: false
+    third_party_settings: {  }
+hidden:
+  body: true
+  created: true
+  field_event_date: true
+  field_event_logo: true
+  field_event_sponsors: true
+  field_event_topics: true
+  field_event_website: true
+  field_phone: true
+  path: true
+  promote: true
+  rng_registration_groups: true
+  sticky: true
+  title: true
+  uid: true

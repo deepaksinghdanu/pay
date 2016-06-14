@@ -1,0 +1,20 @@
+uuid: b41a1acb-cf9a-4245-827e-95fa5eb80db4
+langcode: en
+status: true
+dependencies:
+  module:
+    - rng
+third_party_settings:
+  rng:
+    condition_rng_role: false
+id: summer_intern
+label: 'Summer Intern'
+weight: -8
+is_admin: null
+permissions:
+  - 'create events content'
+  - 'delete own events content'
+  - 'edit own events content'
+  - 'rng register self'
+  - 'rng register role authenticated'
+  - 'rng register role summer_intern'

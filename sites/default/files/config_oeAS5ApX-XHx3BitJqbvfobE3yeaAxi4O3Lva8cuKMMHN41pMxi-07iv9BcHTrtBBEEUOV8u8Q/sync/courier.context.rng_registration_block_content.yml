@@ -1,0 +1,9 @@
+uuid: a45f8da0-011f-44ef-9470-308ae48ed135
+langcode: en
+status: true
+dependencies: {  }
+id: rng_registration_block_content
+label: 'Event (Custom block): Registration'
+tokens:
+  - block_content
+  - registration

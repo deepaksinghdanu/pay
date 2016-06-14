@@ -1,0 +1,39 @@
+uuid: 2e8bf98b-d774-454b-8485-2aa84e250759
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:a216e440-3e47-48ae-a867-b09916063091'
+  module:
+    - block_content
+    - system
+    - user
+  theme:
+    - zircon
+id: zircon_welcometodrupal8
+theme: zircon
+region: sidebar_first
+weight: -9
+provider: null
+plugin: 'block_content:a216e440-3e47-48ae-a867-b09916063091'
+settings:
+  id: 'block_content:a216e440-3e47-48ae-a867-b09916063091'
+  label: 'Welcome To Drupal 8'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      anonymous: anonymous
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

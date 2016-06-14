@@ -1,0 +1,56 @@
+uuid: ab9f92d9-9826-4767-a74e-94ed59845337
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - node
+    - rng
+  theme:
+    - zircon
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: zircon_page_title
+theme: zircon
+region: content
+weight: -9
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      event_7: event_7
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  'entity_bundle:registration':
+    id: 'entity_bundle:registration'
+    bundles:
+      registration: registration
+    negate: false
+    context_mapping: {  }
+  node_type:
+    id: node_type
+    bundles:
+      event_7: event_7
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  rng_rule_scheduler:
+    id: rng_rule_scheduler
+    rng_rule_component: null
+    rng_rule_scheduler: null
+    date: '1464341095'
+    negate: false
+    context_mapping: {  }
+  rng_current_time:
+    id: rng_current_time
+    date: '1464341095'
+    negate: false
+    context_mapping: {  }

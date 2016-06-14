@@ -1,0 +1,18 @@
+uuid: 2be9278b-82a1-4e66-8192-95677dbfde3c
+langcode: en
+status: true
+dependencies:
+  module:
+    - rng
+id: registration.field_contact_email
+field_name: field_contact_email
+entity_type: registration
+type: email
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

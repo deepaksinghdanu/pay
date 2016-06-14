@@ -1,0 +1,7 @@
+uuid: bf8eedaa-659e-428a-b6aa-24a70c2754a4
+langcode: en
+status: true
+dependencies: {  }
+label: Registration
+id: registration
+description: ''

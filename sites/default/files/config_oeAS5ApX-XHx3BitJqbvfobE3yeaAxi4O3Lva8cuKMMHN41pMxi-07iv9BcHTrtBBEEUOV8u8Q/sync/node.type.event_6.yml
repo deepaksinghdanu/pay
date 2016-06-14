@@ -1,0 +1,11 @@
+uuid: ce335e40-f693-4b74-98d9-ff8bba7cacfd
+langcode: en
+status: true
+dependencies: {  }
+name: event_6
+type: event_6
+description: null
+help: null
+new_revision: false
+preview_mode: 1
+display_submitted: true

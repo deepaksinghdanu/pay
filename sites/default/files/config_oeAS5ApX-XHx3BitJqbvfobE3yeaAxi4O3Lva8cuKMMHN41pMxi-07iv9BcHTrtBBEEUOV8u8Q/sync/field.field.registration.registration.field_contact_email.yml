@@ -1,0 +1,19 @@
+uuid: 70f78ae9-782a-4750-8589-b75c1a231661
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.registration.field_contact_email
+    - rng.registration_type.registration
+id: registration.registration.field_contact_email
+field_name: field_contact_email
+entity_type: registration
+bundle: registration
+label: 'Contact Email'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

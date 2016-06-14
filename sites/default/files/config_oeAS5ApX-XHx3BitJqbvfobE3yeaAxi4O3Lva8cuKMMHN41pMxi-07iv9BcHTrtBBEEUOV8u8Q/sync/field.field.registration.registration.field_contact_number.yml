@@ -1,0 +1,23 @@
+uuid: b0c7b661-f22d-4ca4-8150-e42df7dadc5a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.registration.field_contact_number
+    - rng.registration_type.registration
+  module:
+    - telephone
+id: registration.registration.field_contact_number
+field_name: field_contact_number
+entity_type: registration
+bundle: registration
+label: 'Contact Number'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: +91-
+default_value_callback: ''
+settings: {  }
+field_type: telephone

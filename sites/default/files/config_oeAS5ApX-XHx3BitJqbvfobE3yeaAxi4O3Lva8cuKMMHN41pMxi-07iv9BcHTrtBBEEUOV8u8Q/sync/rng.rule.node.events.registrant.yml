@@ -1,0 +1,22 @@
+uuid: 58520784-be9b-4adb-8ec4-b79d47a6e606
+langcode: en
+status: true
+dependencies:
+  config:
+    - rng.event_type.node.events
+id: node.events.registrant
+entity_type: node
+bundle: events
+machine_name: registrant
+trigger: rng_event.register
+conditions:
+  identity:
+    id: rng_registration_identity
+actions:
+  registration_operations:
+    id: registration_operations
+    configuration:
+      operations:
+        view: true
+        update: true
+        delete: false

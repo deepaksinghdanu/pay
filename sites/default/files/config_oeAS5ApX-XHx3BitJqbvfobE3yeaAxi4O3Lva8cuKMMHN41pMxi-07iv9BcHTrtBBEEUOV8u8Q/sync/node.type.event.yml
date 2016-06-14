@@ -1,0 +1,11 @@
+uuid: ec3e1623-d10e-4261-8969-22846c1e3864
+langcode: en
+status: true
+dependencies: {  }
+name: event
+type: event
+description: null
+help: null
+new_revision: false
+preview_mode: 1
+display_submitted: true

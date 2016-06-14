@@ -1,0 +1,25 @@
+uuid: 2bccc3df-7de7-4a41-907d-cdf06dc208e0
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:adb10539-0c64-4e14-8ec7-e33339ea4c2d'
+  module:
+    - block_content
+  theme:
+    - zircon
+id: recentlyviewedevents
+theme: zircon
+region: '-1'
+weight: -7
+provider: null
+plugin: 'block_content:adb10539-0c64-4e14-8ec7-e33339ea4c2d'
+settings:
+  id: 'block_content:adb10539-0c64-4e14-8ec7-e33339ea4c2d'
+  label: 'Recently viewed Events'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

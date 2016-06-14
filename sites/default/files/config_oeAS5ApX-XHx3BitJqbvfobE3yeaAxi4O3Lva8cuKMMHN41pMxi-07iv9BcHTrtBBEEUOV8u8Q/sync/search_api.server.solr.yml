@@ -1,0 +1,26 @@
+uuid: 876a2903-3c07-4414-888f-6e4b15e3faba
+langcode: en
+status: true
+dependencies:
+  module:
+    - search_api_solr
+id: solr
+name: solr
+description: ''
+backend: search_api_solr
+backend_config:
+  scheme: http
+  host: localhost
+  port: '8983'
+  path: /solr/core1
+  http_user: root
+  http_pass: root
+  excerpt: false
+  retrieve_data: false
+  highlight_data: false
+  skip_schema_check: false
+  solr_version: ''
+  http_method: AUTO
+  site_hash: true
+  autocorrect_spell: true
+  autocorrect_suggest_words: true

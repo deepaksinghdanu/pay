@@ -1,0 +1,38 @@
+uuid: 7314b2b7-71cf-4b7d-b7ca-b7c3f0b8d5a4
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.events
+  module:
+    - rng_date_scheduler
+third_party_settings:
+  rng_date_scheduler:
+    default_access: null
+    fields:
+      -
+        status: true
+        field_name: field_closing_date
+        access:
+          before: null
+          during: null
+          after: false
+      -
+        status: true
+        field_name: field_opening_date
+        access:
+          before: false
+          during: null
+          after: null
+      -
+        status: false
+        field_name: field_event_date
+        access:
+          before: null
+          during: null
+          after: null
+id: node.events
+entity_type: node
+bundle: events
+mirror_operation_to_event_manage: update
+custom_rules: true

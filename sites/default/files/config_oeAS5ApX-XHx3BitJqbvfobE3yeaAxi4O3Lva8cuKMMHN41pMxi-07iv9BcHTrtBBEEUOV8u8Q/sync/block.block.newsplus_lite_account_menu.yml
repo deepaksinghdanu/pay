@@ -1,0 +1,44 @@
+uuid: 04927b70-0841-4fb2-a200-af17302e8cc1
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - rng
+    - system
+  theme:
+    - newsplus_lite
+_core:
+  default_config_hash: BpDZVqKdL6gvIl9OLXqXTIPcBFEZj7_cmfcZHw_Htj0
+id: newsplus_lite_account_menu
+theme: newsplus_lite
+region: sidebar_second
+weight: -5
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 1
+visibility:
+  rng_rule_scheduler:
+    id: rng_rule_scheduler
+    rng_rule_component: null
+    rng_rule_scheduler: null
+    date: '1464257443'
+    negate: false
+    context_mapping: {  }
+  rng_current_time:
+    id: rng_current_time
+    date: '1464257443'
+    negate: false
+    context_mapping: {  }
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

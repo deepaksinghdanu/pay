@@ -1,0 +1,25 @@
+uuid: 257886d2-0cb5-448b-af3b-05c25d491e98
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - zircon
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: zircon_branding
+theme: zircon
+region: header
+weight: -9
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Event Management Service'
+  provider: system
+  label_display: visible
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }
